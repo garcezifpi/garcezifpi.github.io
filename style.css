@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+    .paragraph {
+      text-indent: 2rem
+    }
+    .mt-md {
+      margin-top: 12rem;
+    }
+}
