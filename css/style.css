@@ -1,6 +1,11 @@
+.paragraph {
+  text-align: justify;
+}
+
 @media (min-width: 768px) {
     .paragraph {
-      text-indent: 2rem
+      text-indent: 2rem;
+      text-align: justify;
     }
     .mt-md {
       margin-top: 12rem;
