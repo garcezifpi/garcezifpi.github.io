@@ -1,0 +1,2 @@
+[ ] mudar intro
+[ ] ajustar imagens 
