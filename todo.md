@@ -1,2 +1,2 @@
-[ ] mudar intro
-[ ] ajustar imagens 
+- [ ] mudar intro
+- [ ] ajustar imagens 
