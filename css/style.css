@@ -2,6 +2,10 @@
   text-align: justify;
 }
 
+.bg-blur {
+  backdrop-filter: blur(10px);
+}
+
 @media (min-width: 768px) {
     .paragraph {
       text-indent: 2rem;
