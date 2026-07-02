@@ -14,11 +14,17 @@
     <nav class="navbar bg-primary bg-opacity-50 bg-blur border-secondary border-bottom sticky-top mb-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Projeto Integrador</a>
-            <button class="navbar-toggler">
-                <span class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#toc"></span>
-            </button>
+            <div class="d-flex gap-2">
+                <button class="navbar-toggler" id="themeToggler">
+                    <span class="bi-moon-fill" id="themeIcon"></span>
+                </button>
+                <button class="navbar-toggler">
+                    <span class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#toc"></span>
+                </button>
+            </div>
         </div>
-        
+        </div>
+
     </nav>
     <div class="offcanvas offcanvas-end" id="toc">
         <div class="offcanvas-header">
@@ -51,38 +57,25 @@
                         Cultura, tecnologia e identidade feminina
                     </a>
                 </li>
-                
+
             </ul>
         </div>
     </div>
-    
+
     <div class="container-fluid text-center mb-3">
-        <!-- <div class="row overflow-hidden border rounded border-0">
-            <div class="col">
-                <h2 class="text-primary text-md-end mt-md">Impactos ambientais e tecnologia na vivência e cultura das
-                    mulheres</h2>
-                <p class="text-secondary text-md-end small">
-                    <span class="bi bi-people-fill"></span>
-                    Ana Maria, Brayan, Camila, Cicilia, Gabriel, Jhonnatan
-                </p>
-            </div>
-            <div class="col-md">
-                <img src="images/intro.jpg" class="img-fluid rounded object-fit-cover"
-                    style="height: 30rem; object-position: -5rem;">
-            </div>
-        </div> -->
         <img src="images/intro.jpg" class="intro rounded mb-2 object-fit-cover">
-        <h1 class="text-primary">Impactos ambientais e tecnologia na vivência e cultura das
+        <h1 class="text-gradient-primary">Impactos ambientais e tecnologia na vivência e cultura das
             mulheres</h2>
-        <p class="text-secondary small mb-4">
-            <span class="bi bi-people-fill"></span>
-            Ana Maria, Brayan, Camila, Cicilia, Gabriel, Jhonnatan
-        </p>
+            <p class="text-secondary small mb-4">
+                <span class="bi bi-people-fill"></span>
+                Ana Maria, Brayan, Camila, Cicilia, Gabriel, Jhonnatan
+            </p>
     </div>
 
     <div class="container mb-3" id="parte-jhonnatan">
         <div class="mb-3">
-            <h4 class="text-primary me-4 mb-3">Acesso feminino à tecnologia: desigualdade digital de gênero e impactos na vida das mulheres</h4>
+            <h4 class="text-primary me-4 mb-3">Acesso feminino à tecnologia: desigualdade digital de gênero e impactos
+                na vida das mulheres</h4>
             <button class="btn btn-sm btn-outline-primary rounded-pill" type="button" data-bs-target="#fontes"
                 data-bs-toggle="collapse">
                 <span class="bi bi-chevron-expand"></span>
@@ -97,7 +90,8 @@
                     <li class="list-group-item link-primary">
                         <a href="https://www.itu.int/hub/publication/D-IND-ICT_MDD-2024-4/">
                             <span class="bi bi-box-arrow-up-right"></span>
-                            União Internacional de Telecomunicações (ITU) — Measuring Digital Development: Facts and Figures 2024
+                            União Internacional de Telecomunicações (ITU) — Measuring Digital Development: Facts and
+                            Figures 2024
                         </a>
                     </li>
                     <li class="list-group-item link-primary">
@@ -136,17 +130,66 @@
                             Banco Mundial — Digital Development e inclusão digital
                         </a>
                     </li>
+                    <li class="list-group-item">
+                        <a href="https://journals.sagepub.com/">
+                            <span class="bi bi-box-arrow-up-right"></span>
+                            Pesquisas acadêmicas sobre masculinidades digitais, misoginia online e comunidades virtuais
+                        </a>
+                    </li>
                 </ol>
             </div>
         </div>
 
-        <p class="paragraph">A tecnologia se tornou uma das principais ferramentas de participação social no século XXI. O acesso à internet, dispositivos digitais e conhecimento tecnológico influencia diretamente a educação, o trabalho, a comunicação, a saúde, a segurança e a autonomia das pessoas. Porém, esse acesso ainda não acontece de forma igualitária: mulheres, principalmente em regiões pobres, rurais ou vulneráveis, enfrentam maiores barreiras para entrar e permanecer no mundo digital.</p>
-        <p class="paragraph">A desigualdade digital de gênero representa a diferença entre homens e mulheres no acesso, uso e domínio das tecnologias digitais. Ela não envolve apenas possuir internet, mas também ter dispositivos adequados, conhecimento digital e oportunidades para transformar a tecnologia em educação, trabalho e participação social.Mesmo com o crescimento da conectividade mundial, mulheres continuam enfrentando maiores dificuldades, principalmente em países de baixa e média renda, devido a fatores econômicos, sociais e culturais.</p>
-        <p class="paragraph">Em regiões vulneráveis, o acesso feminino à tecnologia é afetado pelo custo de celulares, computadores e internet. Além disso, áreas rurais costumam possuir menor infraestrutura tecnológica, dificultando o acesso à conexão e à capacitação digital. A exclusão acontece não apenas pela falta de equipamentos, mas também pela falta de oportunidades para aprender e utilizar ferramentas digitais.</p>
-        <p class="paragraph">A falta de acesso tecnológico impacta diretamente a educação das mulheres. Atualmente, muitos estudos, cursos e oportunidades dependem da internet. Quando meninas e mulheres não possuem conexão ou dispositivos adequados, encontram mais dificuldades para continuar seus estudos e buscar qualificações. Esse problema ficou ainda mais evidente com a expansão do ensino remoto, quando estudantes sem acesso digital tiveram maiores dificuldades de acompanhar as atividades.</p>
-        <p class="paragraph">No mercado de trabalho, a tecnologia se tornou essencial. Muitas profissões exigem conhecimentos digitais, uso de plataformas online e adaptação a novas ferramentas. A falta de acesso pode limitar oportunidades de emprego, trabalho remoto e empreendedorismo digital. Quando mulheres conseguem acesso à tecnologia, ela pode aumentar sua autonomia financeira e criar novas possibilidades profissionais.</p>
-        <p class="paragraph">A tecnologia também contribui para a autonomia feminina ao ampliar o acesso à informação, educação, serviços e redes de apoio. Ela permite maior participação social e possibilita que mulheres compartilhem conhecimentos e ocupem novos espaços. Por outro lado, quando mulheres ficam afastadas do ambiente digital, suas necessidades e experiências são menos representadas no desenvolvimento tecnológico.</p>
-        <p class="paragraph">A desigualdade digital de gênero mostra que tecnologia não é apenas uma questão de inovação, mas também de igualdade social. Garantir acesso feminino à internet, dispositivos e educação digital significa ampliar oportunidades e reduzir desigualdades.</p>
+        <figure class="figure d-block w-75 m-4 mx-auto">
+            <img src="images/general.jpeg" class="figure-img rounded img-thumbnail">
+        </figure>
+
+        <p class="paragraph">A tecnologia se tornou uma das principais ferramentas de participação social no século XXI.
+            O acesso à internet, dispositivos digitais e conhecimento tecnológico influencia diretamente a educação, o
+            trabalho, a comunicação, a saúde, a segurança e a autonomia das pessoas. Porém, esse acesso ainda não
+            acontece de forma igualitária: mulheres, principalmente em regiões pobres, rurais ou vulneráveis, enfrentam
+            maiores barreiras para entrar e permanecer no mundo digital.</p>
+        <p class="paragraph">A desigualdade digital de gênero representa a diferença entre homens e mulheres no acesso,
+            uso e domínio das tecnologias digitais. Ela não envolve apenas possuir internet, mas também ter dispositivos
+            adequados, conhecimento digital e oportunidades para transformar a tecnologia em educação, trabalho e
+            participação social.Mesmo com o crescimento da conectividade mundial, mulheres continuam enfrentando maiores
+            dificuldades, principalmente em países de baixa e média renda, devido a fatores econômicos, sociais e
+            culturais.</p>
+        <p class="paragraph">Em regiões vulneráveis, o acesso feminino à tecnologia é afetado pelo custo de celulares,
+            computadores e internet. Além disso, áreas rurais costumam possuir menor infraestrutura tecnológica,
+            dificultando o acesso à conexão e à capacitação digital. A exclusão acontece não apenas pela falta de
+            equipamentos, mas também pela falta de oportunidades para aprender e utilizar ferramentas digitais.</p>
+        <p class="paragraph">A falta de acesso tecnológico impacta diretamente a educação das mulheres. Atualmente,
+            muitos estudos, cursos e oportunidades dependem da internet. Quando meninas e mulheres não possuem conexão
+            ou dispositivos adequados, encontram mais dificuldades para continuar seus estudos e buscar qualificações.
+            Esse problema ficou ainda mais evidente com a expansão do ensino remoto, quando estudantes sem acesso
+            digital tiveram maiores dificuldades de acompanhar as atividades.</p>
+        <p class="paragraph">No mercado de trabalho, a tecnologia se tornou essencial. Muitas profissões exigem
+            conhecimentos digitais, uso de plataformas online e adaptação a novas ferramentas. A falta de acesso pode
+            limitar oportunidades de emprego, trabalho remoto e empreendedorismo digital. Quando mulheres conseguem
+            acesso à tecnologia, ela pode aumentar sua autonomia financeira e criar novas possibilidades profissionais.
+        </p>
+        <p class="paragraph">A tecnologia também contribui para a autonomia feminina ao ampliar o acesso à informação,
+            educação, serviços e redes de apoio. Ela permite maior participação social e possibilita que mulheres
+            compartilhem conhecimentos e ocupem novos espaços. Por outro lado, quando mulheres ficam afastadas do
+            ambiente digital, suas necessidades e experiências são menos representadas no desenvolvimento tecnológico.
+        </p>
+        <p class="paragraph">A desigualdade digital de gênero mostra que tecnologia não é apenas uma questão de
+            inovação, mas também de igualdade social. Garantir acesso feminino à internet, dispositivos e educação
+            digital significa ampliar oportunidades e reduzir desigualdades. Além disso, a tecnologia influencia a forma
+            como ideias, comportamentos e visões sobre gênero são construídos na sociedade. A internet se tornou um
+            espaço onde diferentes grupos criam comunidades, compartilham opiniões e influenciam debates culturais.</p>
+        <p class="paragraph">Um exemplo desse impacto é o crescimento do movimento conhecido como “red pill”, um
+            conjunto de comunidades digitais que ganhou força em fóruns e redes sociais. Apesar de se apresentar como um
+            espaço de discussão sobre relacionamentos e masculinidade, diversas análises acadêmicas e sociais apontam
+            que partes desse movimento reproduzem discursos misóginos, com ideias que reforçam estereótipos sobre
+            mulheres, culpabilizam o gênero feminino por problemas sociais e defendem visões de desigualdade entre
+            homens e mulheres.</p>
+        <p class="paragraph">Esse fenômeno mostra que o acesso à tecnologia não significa automaticamente inclusão ou
+            avanço social. A internet pode ser uma ferramenta de educação, autonomia e participação feminina, mas também
+            pode ser usada para espalhar discursos de ódio, desinformação e formas de violência simbólica contra
+            mulheres. Por isso, discutir tecnologia e gênero também envolve analisar como os ambientes digitais podem
+            influenciar a cultura e as relações sociais.</p>
     </div>
 
     <div class="container mb-3" id="parte-cici">
@@ -179,6 +222,18 @@
                             https://www.ufsm.br/pet/educom-clima/2025/06/05/ativismo-climatico-na-era-digital
                         </a>
                     </li>
+                    <li class="list-group-item link-primary">
+                        <a href="https://ayalaboratorio.com/2025/07/25/aya-indica-ingrid-satere-mawe/">
+                            <span class="bi bi-box-arrow-up-right"></span>
+                            https://ayalaboratorio.com/2025/07/25/aya-indica-ingrid-satere-mawe/
+                        </a>
+                    </li>
+                    <li class="list-group-item link-primary">
+                        <a href="https://floripa.lgbt/politica/eleicoes-2024/ingrid-satere-mawe-primeira-vereadora-indigena-eleita-em-florianopolis/">
+                            <span class="bi bi-box-arrow-up-right"></span>
+                            https://floripa.lgbt/politica/eleicoes-2024/ingrid-satere-mawe-primeira-vereadora-indigena-eleita-em-florianopolis/
+                        </a>
+                    </li>
                 </ol>
             </div>
         </div>
@@ -187,22 +242,19 @@
             Uma pesquisa realizada pelo Instituto de Tecnologia e Sociedade revela que 70% dos brasileiros se informam
             sobre questões ambientais através das redes sociais. As informações das redes chegam principalmente nos
             jovens, que também têm a oportunidade de participar de manifestações online, tornando as redes uma
-            ferramenta crucial de inclusão juvenil no ativismo ambiental.</p>
-        <p class="paragraph">Essa forma de comunicação também permite que minorias sociais como indígenas e mulheres
-            participem da informação. Um exemplo é Ingrid Sateré Mawé, mulher indígena que usa as redes sociais para dar
-            espaço a suas pautas e lutas.</p>
-        <p class="paragraph">As redes viram uma ferramenta de denúncia , apoio e mobilização. Hashtags como
-            <i>#ChegaDeFiuFiu</i> <i></i>#PrimeiroAssédio</i> e <i>#EleNão</i> são algumas marcas de discussões
-            políticas e feministas nas nas redes. Com a <i>#ChegaDeFiuFiu</i>, mulheres compartilham situações de
-            assédio sofridas em espaços públicos que mostram que essas situações são mais comuns do que se imagina, o
-            que é bem importante considerando que a dificuldade para compartilhar o ocorrido é uma das grandes
-            dificuldades para enfrentar o assédio.
+            ferramenta crucial de inclusão juvenil no ativismo ambiental. Nesse contexto, Greta Thunberg tornou-se exemplo de como as redes sociais podem mobilizar sobre as pautas ambientais. A jovem sueca é conhecida internacionalmente desde a adolescência por abordar pautas climáticas, e usa seus perfis online para defender o que acredita até hoje.</p>
+        <figure class="figure float-start w-50 m-4">
+            <img src="images/greta.jpeg" class="figure-img rounded img-thumbnail">
+            <figcaption class="figure-caption"><h5>Greta Thunberg</h5></figcaption>
+        </figure>
+        <p class="paragraph">Essa forma de comunicação também permite que minorias sociais como pessoas indígenas, LGBT+ e mulheres participem da informação. Ingrid Sateré Mawé é a primeira mulher indígena e LGBT+ eleita vereadora em Florianópolis e tem em foco nas suas políticas ancestralidade e sustentabilidade e destaca a educação indígena como foco no “reflorestamento de mentes”, conceito que envolve compreensão do ser humano sobre sua interdependência com o ecossistema. Ingrid usa as redes sociais para dar espaço e ampliar suas pautas e lutas em prol das mulheres, do meio ambiente e dos povos tradicionais.</p>
+        <figure class="figure float-end w-50 m-4">
+            <img src="images/ingrid.jpeg" class="figure-img rounded img-thumbnail">
+            <figcaption class="figure-caption"><h5>Ingrid Sateré Mawé</h5></figcaption>
+        </figure>
+        <p class="paragraph">O feminismo é outro tema que ganhou mais espaço nas redes sociais.Através da internet mulheres conseguem compartilhar e se identificar com situações semelhantes a de outras, dando visibilidade para suas lutas, pautas e histórias. As plataformas digitais viram uma ferramenta de denúncia , apoio e mobilização. Hashtags como #ChegaDeFiuFiu #PrimeiroAssédio e #EleNão são algumas marcas de discussões políticas e feministas nas nas redes. Com a #ChegaDeFiuFiu, mulheres compartilham situações de assédio sofridas em espaços públicos que mostram que essas situações são mais comuns do que se imagina, o que é bem importante considerando que a dificuldade para compartilhar o ocorrido é uma das grandes dificuldades para enfrentar o assédio.
         </p>
-        <p class="paragraph">No Brasil, 74,5% dos usuários da internet são mulheres, o que explica o aumento das
-            discussões online sobre pautas feministas.O empoderamento feminino não vem só pelas denúncias, mas também
-            pela visibilidade dos negócios, moda, humor , esportes, comunidades voltadas para o público feminino e
-            outros tópicos que aumentam a participação das mulheres em assuntos no mundo todo, considerando a
-            globalização.</p>
+        <p class="paragraph">No Brasil, a maioria dos usuários da internet são mulheres, o que explica o aumento das discussões online sobre pautas feministas.O empoderamento feminino não vem só pelas denúncias, mas também pela visibilidade dos negócios, moda, humor , esportes, comunidades voltadas para o público feminino e outros tópicos que aumentam a participação das mulheres em assuntos  no mundo todo, considerando a globalização.</p>
         <p class="paragraph">A educação também aumenta a participação feminina na sociedade e fica mais acessível para
             mulheres com o estudo online. Segundo a ON Woman a educação a distância ajuda mulheres e meninas a conciliar
             os estudos com suas outras responsabilidades, considerando a dupla jornada de trabalho. Os horários são mais
@@ -277,142 +329,201 @@
             educação, a arte, os direitos humanos e o meio ambiente. Hoje, mulheres continuam liderando movimentos
             sociais, criando projetos, ocupando espaços de liderança e inspirando outras pessoas.</p>
 
-        <div class="row mb-3">
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="images/marie-curie.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Marie Curie</h5>
-                        <ul class="card-text ps-3">
-                            <li>Primeira mulher a ganhar um Prêmio Nobel.</li>
-                            <li>Importante para estudos sobre radioatividade.</li>
-                            <li>Abriu espaço para mulheres na ciência.</li>
-                        </ul>
+        <button class="btn d-block mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mulheres-historia">
+            <h4 class="text-gradient-secondary">
+                Mulheres que mudaram a história <br>
+                <span class="bi-chevron-down text-muted small"></span>
+            </h4>
+        </button>
+        <div class="collapse" id="mulheres-historia">
+            <div class="container-md d-flex flex-wrap flex-lg-nowrap gap-3 my-4 justify-content-evenly">
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/marie-curie.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Marie Curie</h3>
+                        <div class="card-text">
+                            Importante para estudos de radioatividade e abriu espaço para as mulheres na ciência.
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="images/malala.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Malala Yousafzai</h5>
-                        <ul class="card-text ps-3">
-                            <li>Defende o direito das meninas à educação.</li>
-                            <li>Ganhou o Nobel da Paz aos 17 anos.</li>
-                        </ul>
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/malala.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Malala Yousafzai</h3>
+                        <div class="card-text">
+                            Defende o direito das meninas à educação e ganhou o Nobel da Paz aos 17 anos.
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="images/frida.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Frida Kahlo</h5>
-                        <p class="card-text ps-3">
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/frida.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Frida Kahlo</h3>
+                        <div class="card-text">
                             Tornou-se símbolo de resistência, arte e identidade feminina.
-                        </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="images/rosa-parks.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Rosa Parks</h5>
-                        <ul class="card-text ps-3">
-                            <li>Defende o direito das meninas à educação.</li>
-                            <li>Ganhou o Nobel da Paz aos 17 anos.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="images/bertha.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Bertha Lutz</h5>
-                        <p class="card-text ps-3">
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/bertha.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Bertha Lutz</h3>
+                        <div class="card-text">
                             Lutou pelo direito ao voto feminino no Brasil.
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container mb-3" id="parte-brayan">
-        <div class="mb-3">
-            <h4 class="text-primary me-4 mb-3">Cultura, tecnologia e identidade feminina</h4>
-            <button class="btn btn-sm btn-outline-primary rounded-pill" type="button" data-bs-target="#fontes"
-                data-bs-toggle="collapse">
-                <span class="bi bi-chevron-expand"></span>
-                Ver fontes
-            </button>
-            <button class="btn btn-sm text-secondary rounded-pill disabled" type="button">
-                <span class="bi bi-person-fill"></span>
-                Brayan de Morais
-            </button>
-            <div class="collapse bg-primary-subtle border border-primary rounded mt-2" id="fontes">
-                <ol class="list-group">
-                    <li class="list-group-item link-primary">
-                        <a href="https://www.dove.com/br/historias-Dove/campanhas/keep-beauty-real.html">
-                            <span class="bi bi-box-arrow-up-right"></span>
-                            https://www.dove.com/br/historias-Dove/campanhas/keep-beauty-real.html
-                        </a>
-                    </li>
-                    <li class="list-group-item link-primary">
-                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S1740144522000407">
-                            <span class="bi bi-box-arrow-up-right"></span>
-                            https://www.sciencedirect.com/science/article/abs/pii/S1740144522000407
-                        </a>
-                    </li>
-                    <li class="list-group-item link-primary">
-                        <a href="https://periodicos.ufc.br/psicologiaufc/article/view/78328">
-                            <span class="bi bi-box-arrow-up-right"></span>
-                            https://periodicos.ufc.br/psicologiaufc/article/view/78328
-                        </a>
-                    </li>
-                </ol>
+        <button class="btn d-block mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mulheres-brasil">
+            <h4 class="text-gradient-secondary">
+                Mulheres brasileiras inspiradoras<br>
+                <span class="bi-chevron-down text-muted small"></span>
+            </h4>
+        </button>
+        <div class="collapse" id="mulheres-brasil">
+            <div class="container-md d-flex flex-wrap flex-lg-nowrap gap-3 my-4 justify-content-evenly">
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/maria-da-penha.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Maria da Penha</h3>
+                        <div class="card-text">
+                            Inspirou a criação da Lei Maria da Penha contra violência doméstica.
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/dandara.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Dandara dos Palmares</h3>
+                        <div class="card-text">
+                            Lutou contra a escravidão no Brasil.
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/nise.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Nise da Silveira</h3>
+                        <div class="card-text">
+                            Revolucionou tratamentos de saúde mental.
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-center mt-5" style="max-width: 14em;">
+                    <img src="images/marielle.jpg"
+                        class="img-fluid rounded-circle object-fit-cover border-secondary position-absolute top-0 start-50 translate-middle"
+                        style="width: 7em; height: 7em;">
+                    <div class="card-body mt-5">
+                        <h3 class="text-gradient-secondary">Marielle Franco</h3>
+                        <div class="card-text">
+                            Defendia direitos humanos, mulheres e população periférica.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <p class="paragraph">A identidade feminina corresponde ao conjunto de características, valores, experiências e
-            percepções que uma mulher desenvolve sobre si mesma ao longo da vida. Essa construção é influenciada por
-            diversos fatores, como a família, a cultura, a educação e as relações sociais. Na contemporaneidade, as
-            tecnologias digitais também desempenham papel fundamental nesse processo, modificando a forma como as
-            mulheres se relacionam consigo mesmas e com o mundo.</p>
-        <p class="paragraph">O avanço das tecnologias digitais transformou profundamente a construção da identidade
-            feminina. Redes sociais, aplicativos e sistemas de inteligência artificial influenciam comportamentos,
-            valores culturais e padrões de beleza. Embora essas ferramentas ampliem as possibilidades de expressão,
-            comunicação e participação social, elas também podem reforçar estereótipos de gênero, aumentar a pressão
-            estética e intensificar conflitos entre tradições culturais e os novos modelos de vida promovidos pela
-            modernidade tecnológica.</p>
-        <p class="paragraph">Essa influência torna-se evidente quando se analisam dados recentes. De acordo com a
-            Sociedade Brasileira de Cirurgia Plástica (SBCP), a procura por procedimentos estéticos entre jovens de 13 a
-            18 anos cresceu significativamente nos últimos anos, impulsionada, em parte, pela insatisfação gerada pelas
-            mídias digitais. Além disso, uma pesquisa global realizada pela Dove, por meio do Projeto Pela Beleza Real,
-            revelou que uma em cada duas meninas brasileiras sente necessidade de modificar algum aspecto de sua
-            aparência devido ao conteúdo consumido nas redes sociais, mesmo sabendo que muitas imagens são manipuladas
-            digitalmente.</p>
-        <p class="paragraph">Atualmente, grande parte das referências de beleza consumidas pelas mulheres circula em
-            plataformas digitais. Diferentemente dos meios de comunicação tradicionais, como a televisão e as revistas,
-            as redes sociais oferecem um fluxo contínuo de imagens e vídeos que podem ser editados, filtrados e
-            aprimorados por recursos tecnológicos. Como consequência, muitas usuárias passam a comparar sua aparência
-            com padrões frequentemente inalcançáveis. Estudos demonstram que a exposição frequente a conteúdos focados
-            na estética está associada à redução da satisfação corporal e da autoestima. Uma pesquisa realizada com 329
-            mulheres usuárias do Instagram, entre 18 e 24 anos, identificou uma relação significativa entre o uso da
-            plataforma, a insatisfação com a imagem corporal e níveis mais baixos de autoestima.</p>
-        <p class="paragraph">Dessa forma, observa-se que a tecnologia exerce uma influência profunda sobre a identidade
-            feminina contemporânea. As redes sociais participam ativamente da construção da autoimagem, moldando
-            percepções sobre beleza, comportamento e valor pessoal. Paralelamente, a inteligência artificial e os
-            algoritmos digitais podem reproduzir e fortalecer estereótipos já existentes. Por isso, torna-se essencial
-            promover o uso crítico e consciente dessas ferramentas, incentivando a valorização da diversidade e o
-            desenvolvimento de uma identidade baseada não apenas em padrões digitais, mas também na autonomia, na
-            autoestima e na pluralidade das experiências femininas.</p>
-    </div>
+        <div class="container mb-3" id="parte-brayan">
+            <div class="mb-3">
+                <h4 class="text-primary me-4 mb-3">Cultura, tecnologia e identidade feminina</h4>
+                <button class="btn btn-sm btn-outline-primary rounded-pill" type="button" data-bs-target="#fontes"
+                    data-bs-toggle="collapse">
+                    <span class="bi bi-chevron-expand"></span>
+                    Ver fontes
+                </button>
+                <button class="btn btn-sm text-secondary rounded-pill disabled" type="button">
+                    <span class="bi bi-person-fill"></span>
+                    Brayan de Morais
+                </button>
+                <div class="collapse bg-primary-subtle border border-primary rounded mt-2" id="fontes">
+                    <ol class="list-group">
+                        <li class="list-group-item link-primary">
+                            <a href="https://www.dove.com/br/historias-Dove/campanhas/keep-beauty-real.html">
+                                <span class="bi bi-box-arrow-up-right"></span>
+                                https://www.dove.com/br/historias-Dove/campanhas/keep-beauty-real.html
+                            </a>
+                        </li>
+                        <li class="list-group-item link-primary">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1740144522000407">
+                                <span class="bi bi-box-arrow-up-right"></span>
+                                https://www.sciencedirect.com/science/article/abs/pii/S1740144522000407
+                            </a>
+                        </li>
+                        <li class="list-group-item link-primary">
+                            <a href="https://periodicos.ufc.br/psicologiaufc/article/view/78328">
+                                <span class="bi bi-box-arrow-up-right"></span>
+                                https://periodicos.ufc.br/psicologiaufc/article/view/78328
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
 
-    <script src="bootstrap.js"></script>
+            <p class="paragraph">A identidade feminina corresponde ao conjunto de características, valores, experiências
+                e
+                percepções que uma mulher desenvolve sobre si mesma ao longo da vida. Essa construção é influenciada por
+                diversos fatores, como a família, a cultura, a educação e as relações sociais. Na contemporaneidade, as
+                tecnologias digitais também desempenham papel fundamental nesse processo, modificando a forma como as
+                mulheres se relacionam consigo mesmas e com o mundo.</p>
+            <p class="paragraph">O avanço das tecnologias digitais transformou profundamente a construção da identidade
+                feminina. Redes sociais, aplicativos e sistemas de inteligência artificial influenciam comportamentos,
+                valores culturais e padrões de beleza. Embora essas ferramentas ampliem as possibilidades de expressão,
+                comunicação e participação social, elas também podem reforçar estereótipos de gênero, aumentar a pressão
+                estética e intensificar conflitos entre tradições culturais e os novos modelos de vida promovidos pela
+                modernidade tecnológica.</p>
+            <p class="paragraph">Essa influência torna-se evidente quando se analisam dados recentes. De acordo com a
+                Sociedade Brasileira de Cirurgia Plástica (SBCP), a procura por procedimentos estéticos entre jovens de
+                13 a
+                18 anos cresceu significativamente nos últimos anos, impulsionada, em parte, pela insatisfação gerada
+                pelas
+                mídias digitais. Além disso, uma pesquisa global realizada pela Dove, por meio do Projeto Pela Beleza
+                Real,
+                revelou que uma em cada duas meninas brasileiras sente necessidade de modificar algum aspecto de sua
+                aparência devido ao conteúdo consumido nas redes sociais, mesmo sabendo que muitas imagens são
+                manipuladas
+                digitalmente.</p>
+            <p class="paragraph">Atualmente, grande parte das referências de beleza consumidas pelas mulheres circula em
+                plataformas digitais. Diferentemente dos meios de comunicação tradicionais, como a televisão e as
+                revistas,
+                as redes sociais oferecem um fluxo contínuo de imagens e vídeos que podem ser editados, filtrados e
+                aprimorados por recursos tecnológicos. Como consequência, muitas usuárias passam a comparar sua
+                aparência
+                com padrões frequentemente inalcançáveis. Estudos demonstram que a exposição frequente a conteúdos
+                focados
+                na estética está associada à redução da satisfação corporal e da autoestima. Uma pesquisa realizada com
+                329
+                mulheres usuárias do Instagram, entre 18 e 24 anos, identificou uma relação significativa entre o uso da
+                plataforma, a insatisfação com a imagem corporal e níveis mais baixos de autoestima.</p>
+            <p class="paragraph">Dessa forma, observa-se que a tecnologia exerce uma influência profunda sobre a
+                identidade
+                feminina contemporânea. As redes sociais participam ativamente da construção da autoimagem, moldando
+                percepções sobre beleza, comportamento e valor pessoal. Paralelamente, a inteligência artificial e os
+                algoritmos digitais podem reproduzir e fortalecer estereótipos já existentes. Por isso, torna-se
+                essencial
+                promover o uso crítico e consciente dessas ferramentas, incentivando a valorização da diversidade e o
+                desenvolvimento de uma identidade baseada não apenas em padrões digitais, mas também na autonomia, na
+                autoestima e na pluralidade das experiências femininas.</p>
+        </div>
+
+        <script src="bootstrap.js"></script>
+        <script src="js/dark.js"></script>
+        <script src="js/scroll.js"></script>
 </body>
 
 </html>
