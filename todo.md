@@ -1,2 +1,6 @@
 - [ ] mudar intro
-- [ ] ajustar imagens 
+- [ ] ajustar cards
+- [ ] add textos
+- - [ ] john
+- - [ ] camila
+- [ ] interatividade?
