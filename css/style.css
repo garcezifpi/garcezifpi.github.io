@@ -29,6 +29,7 @@
   background: linear-gradient(to right, var(--bs-primary), orange);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
@@ -36,6 +37,7 @@
   background: linear-gradient(to right, var(--bs-secondary), darkgreen);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
