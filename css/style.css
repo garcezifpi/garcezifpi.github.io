@@ -6,9 +6,17 @@
   backdrop-filter: blur(10px);
 }
 
+.text-gradient-primary {
+  background: linear-gradient(to right, var(--bs-primary), orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .intro {
   max-height: 60vh;
   width: 100%;
+  
 }
 
 @media (min-width: 768px) {

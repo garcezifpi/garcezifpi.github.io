@@ -14,9 +14,16 @@
     <nav class="navbar bg-primary bg-opacity-50 bg-blur border-secondary border-bottom sticky-top mb-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Projeto Integrador</a>
-            <button class="navbar-toggler">
+            <div class="d-flex gap-2">
+                <button class="navbar-toggler" id="themeToggler">
+                    <span class="bi-moon-fill" id="themeIcon"></span>
+                </button>
+                <button class="navbar-toggler">
                 <span class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#toc"></span>
-            </button>
+                </button>
+            </div>
+            
+    </div>
         </div>
         
     </nav>
@@ -72,7 +79,7 @@
             </div>
         </div> -->
         <img src="images/intro.jpg" class="intro rounded mb-2 object-fit-cover">
-        <h1 class="text-primary">Impactos ambientais e tecnologia na vivência e cultura das
+        <h1 class="text-gradient-primary">Impactos ambientais e tecnologia na vivência e cultura das
             mulheres</h2>
         <p class="text-secondary small mb-4">
             <span class="bi bi-people-fill"></span>
@@ -413,6 +420,7 @@
     </div>
 
     <script src="bootstrap.js"></script>
+    <script src="js/dark.js"></script>
 </body>
 
 </html>
